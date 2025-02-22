@@ -32,13 +32,12 @@
                                 <label for="examYear">Select the year of exam:</label>
                                 <select id="examYear" required>
                                     <option value="" disabled selected>Select Year</option>                                                 
-                                    <option value="2024">2024</option>
-                                    <option value="2025">2025</option>
-                                    <option value="2026">2026</option>
-                                    <option value="2027">2027</option>
-                                    <option value="2028">2028</option>
-                                    <option value="2029">2029</option>
-                                    <option value="2030">2030</option>
+                                    <option value="2025">Exam on 5 April 2025</option>
+                                    <option value="2026">Exam in Jan 2026</option>
+                                    <option value="2027">Exam in Jan 2027</option>
+                                    <option value="2028">Exam in Jan 2028</option>
+                                    <option value="2029">Exam in Jan 2029</option>
+                                    <option value="2030">Exam in Jan 2030</option>
                                 </select>
                             </p>
                             <p><button type="button" onclick="nextStep(1)">Next</button></p>
@@ -420,7 +419,7 @@
     }
 
     window.sendDataToCRM = function(data) {
-        fetch("https://n8n.palmpredictions.com/webhook/828f23f7-8570-4940-936f-cf5a329dbf87", {
+        fetch("https://flow.tsblive.in/webhook/5cb5cabc-a089-46df-be32-b9433abac950", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
