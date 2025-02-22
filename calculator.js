@@ -4,7 +4,7 @@
         <div class="sainik-school-calculator" style="margin-top: 30px;">
             <div class="calculator-container">
                 <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.5em; color: #333;">
-क्या आपके बच्चे की Age Sainik School के लिए सही है ? यहाँ Check करें
+क्या आपके बच्चे की आयु Sainik School के लिए सही है ? यहाँ Check करें
 </h3>
                 <div class="age-calculator-form-container">
                     <form id="leadGenerationForm">
