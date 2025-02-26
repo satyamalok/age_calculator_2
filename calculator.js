@@ -399,11 +399,11 @@
             result.className = "result failure";
         }
         
-        submitButton.innerHTML = "All The Best from TSB Family";
+        submitButton.innerHTML = "Get Free Trial Class - Instant";
         submitButton.style.backgroundColor = "#04AA6D";
         submitButton.style.color = "white";
         submitButton.onclick = function () {
-            window.location.href = "#";
+            window.location.href = "https://course.thespeedybrains.com/s/pages/ss-redirect";
         };
         
         var data = "name=" + encodeURIComponent(studentName) +
