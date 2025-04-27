@@ -4,7 +4,7 @@
         <div class="sainik-school-calculator" style="margin-top: 30px;">
             <div class="calculator-container">
                 <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.5em; color: #333;">
-क्या आपके बच्चे की आयु Sainik School के लिए सही है ? यहाँ Check करें
+क्या आपके बच्चे की Age Sainik School के लिए सही है ? यहाँ Check करें
 </h3>
                 <div class="age-calculator-form-container">
                     <form id="leadGenerationForm">
@@ -33,8 +33,7 @@
                             <p>
                                 <label for="examYear">Select the year of exam:</label>
                                 <select id="examYear" required>
-                                    <option value="" disabled selected>Select Year</option>                                                 
-                                    <option value="2025">Exam on 5 April 2025</option>
+                                    <option value="" disabled selected>Select Year</option>                                              
                                     <option value="2026">Exam in Jan 2026</option>
                                     <option value="2027">Exam in Jan 2027</option>
                                     <option value="2028">Exam in Jan 2028</option>
